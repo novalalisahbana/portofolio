@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.image{
+    height: 400px;
+    width: 300px;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    right: 1%;
+    transform: translateY(-50%);
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 20px 0 20px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.content a{
+    font-size: 20px;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.content a:hover{
+    background: transparent;
+    border: 2px solid red;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-img{
+    height: auto;
+    height: 430px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.about-me h2{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.about-me h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.about-me p{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.skill{
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+.skill-bar{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gambar{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+}
+.skill-img{
+    height: auto;
+    height: 430px;
+    border-radius: 10px;
+}
+.tulisan{
+    color: white;
+}
+.tulisan p{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px;
+}
+.tulisan h2{
+    font-size: 50px;
+    margin: 20px;
+    padding: -50px;
+}
+.tulisan h5{
+    font-size: 30px;
+    margin: 20px;
+}
+.tulisan h6{
+    font-size: 30px;
+    margin: 60px;
+}
+.kotak{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.kotak:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer; 
+}
+.contact-me{
+    width: 100%;
+    padding: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box{
+    color: white;
+}
+.contact-box::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact{
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.contact h4{
+    color: red;
+    padding-bottom: 10px;
+}
+.contact p{
+    font-size: 18px;
+}
+.sosial{
+    display: flex;
+}
+.sosial a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    border: 2px solid white;
+}
+.sosial a:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    background: transparent;
+    border: 2px solid red;
+}
+.sosial{
+    background: black;
+}
